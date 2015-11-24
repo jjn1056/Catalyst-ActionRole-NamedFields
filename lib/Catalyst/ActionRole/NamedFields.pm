@@ -72,7 +72,7 @@ attribute is evaluted into a callback, so be warned about what you put there.  I
 evaluated in a context where @args is the action arguments (typically defined by the
 Args or CaptureArgs attribute) and where %query is %{$c->req->query_parameters}.  We
 also localize $_ to be the current context or '$c' which you might find a useful
-shorthand (although keepin mind that $_ gets clobbered easily in many common functions
+shorthand (although keeping mind that $_ gets clobbered easily in many common functions
 such as map.
 
 The idea is to map some variables to %_ for ease of access.  Although the syntax as
